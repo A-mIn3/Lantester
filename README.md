@@ -1,5 +1,5 @@
    
-       <b>"LANTESTER"</b>
+       "LANTESTER"
            "Usage: lantester.py [-rs] [-p <protocol>] [-f <flags>] [-d <scan_type>] [-t <targetIP>]"
        
                 -s --sniff                            -Sniffer la communication tcp d'une cible .
