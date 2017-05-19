@@ -1,6 +1,6 @@
 
-    <b>   "LANTESTER"</b>
-        <pre>   "Usage: lantester.py [-rs] [-p <protocol>] [-f <flags>] [-d <scan_type>] [-t <targetIP>]"
+       "LANTESTER"
+           "Usage: lantester.py [-rs] [-p <protocol>] [-f <flags>] [-d <scan_type>] [-t <targetIP>]"
        
                 -s --sniff                            -Sniffer la communication tcp d'une cible .
             		-d --detect                           -Detecter une attaque arp poisoning ou un serveur DHCP malveillant.
@@ -24,4 +24,4 @@
 			    python lantester.py -d tcp -p 80 -f FIN 192.168.1.10/24
 			    python lantester.py -d tcp -p 23 -f SYN serv.domaine.com
           
-          </pre>
+          
