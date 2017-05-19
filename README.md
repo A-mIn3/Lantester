@@ -3,15 +3,15 @@
            "Usage: lantester.py [-rs] [-p <protocol>] [-f <flags>] [-d <scan_type>] [-t <targetIP>]"
        
                 -s --sniff                            -Sniffer la communication tcp d'une cible .
-            		-d --detect                           -Detecter une attaque arp poisoning ou un serveur DHCP malveillant.
+            	-d --detect                           -Detecter une attaque arp poisoning ou un serveur DHCP malveillant.
                 -S --scan=scanType                    -Specifier le type de scan : tcp , udp , icmp-echo.
                 -P --proto=protocol                   -Specifier le protocol a tester: dhcp , dns, arp.  
-	             	-f --flags=flags                      -Specifier le type de scan si le scan est sur TCP: SYN, FIN, ACK, NULL, XMAS.
-	            	-t --target=target_ip                 -Specifier une cible pour le scan.
+	        -f --flags=flags                      -Specifier le type de scan si le scan est sur TCP: SYN, FIN,    
+                                                       ACK, NULL, XMAS.
+	        -t --target=target_ip                 -Specifier une cible pour le scan.
                 -p --port=port_range                  -Specifier une plage de ports a scanner.
-	            	-r --reverse                          -Lancer un paylaod reverseShell.
-	            	-i --interface                        -Specifier l'interface pour la detection 
-	            	-h --help                             -Afficher ce menu d'usage .
+	        -i --interface                        -Specifier l'interface pour la detection 
+	       	-h --help                             -Afficher ce menu d'usage .
       
       Examples :
 			    python lantester.py -s -p tcp -P 80 192.168.1.100
