@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-#import logging
+import logging
 logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 
 import sys, signal, getopt, Queue, socket
