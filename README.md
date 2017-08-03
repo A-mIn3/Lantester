@@ -1,8 +1,9 @@
 
-           <h1>"LANTESTER"</h1>
-           <pre>
+
+   <h1>"LANTESTER"</h1>
+           
 	   		Usage: lantester.py [-rs] [-p <protocol>] [-f <flags>] [-d <scan_type>] [-t <targetIP>]
-       
+   <pre>
                 -s --sniff                            -Sniffer la communication tcp d'une cible .
             	-d --detect                           -Detecter une attaque arp poisoning ou un serveur DHCP malveillant.
                 -S --scan=scanType                    -Specifier le type de scan : tcp, udp, icmp-echo.
@@ -14,7 +15,8 @@
 	        -i --interface                        -Specifier l'interface pour la detection 
 	       	-h --help                             -Afficher ce menu d'usage.
       
-	   <h2>Examples :</h2>
+	  
+	    Examples :
 		
 				python lantester.py -s -p tcp -P 80 192.168.1.100
                     	    	python lantester.py -d tcp -f SYN 192.168.1.10
@@ -27,7 +29,7 @@
 			    	python lantester.py -d tcp -p 23 -f SYN serv.domaine.com
           
           
-	  </pre>
-	  
-```
+	 
+</pre>	  
+
 
