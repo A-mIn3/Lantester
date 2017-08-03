@@ -1,4 +1,4 @@
-```html
+
            <h1>"LANTESTER"</h1>
            <pre>
 	   		Usage: lantester.py [-rs] [-p <protocol>] [-f <flags>] [-d <scan_type>] [-t <targetIP>]
