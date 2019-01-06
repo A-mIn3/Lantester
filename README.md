@@ -34,4 +34,4 @@
 
 
 ## Disclaimer
-Theses tools are made only for educational purposes and can be only used in legitimate penetration tests. Author does not take any responsibility for any actions taken by its users.
+These tools are made only for educational purposes and can be only used in legitimate penetration tests. Author does not take any responsibility for any actions taken by its users.
