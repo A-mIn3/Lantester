@@ -46,7 +46,7 @@ def check():
 		 time.sleep(2) 	
 
 def DNStester() :	
-	print "+-----------------------------------------------------------+\n|\t\t\t\t\t\t\t    |\n|\t\t[++++++++++++++++++++]\t\t\t    |\n|target_recursive_dns_ip=126.0.0.31\t\t\t    |\n|poison=127.0.0.1\t\t\t\t\t    |\n|dnsport=5555\t\t\t\t\t\t    |\n|host_name=www.inpt.ac.ma\t\t\t\t    |\n|domaine_de_base=inpt.ac.ma\t\t\t\t    |\n|\t\t[++++++++++++++++++++]\t\t\t    |\n|\t\t\t\t\t\t\t    |\n+-----------------------------------------------------------+\n"
+	print "+-----------------------------------------------------------+\n|\t\t\t\t\t\t\t    |\n|\t\t[++++++++++++++++++++]\t\t\t    |\n|target_recursive_dns_ip=126.0.0.31\t\t\t    |\n|poison=127.0.0.1\t\t\t\t\t    |\n|dnsport=5555\t\t\t\t\t\t    |\n|host_name=domain_hostname\t\t\t\t    |\n|domaine_de_base=domain\t\t\t\t    |\n|\t\t[++++++++++++++++++++]\t\t\t    |\n|\t\t\t\t\t\t\t    |\n+-----------------------------------------------------------+\n"
 	global poison
 	poison=raw_input("[!] poison = [\"127.0.0.1\"]") 
 	poison="127.0.0.1"
