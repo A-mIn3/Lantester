@@ -15,8 +15,9 @@
 	        -i --interface                        -Specifier l'interface pour la detection 
 	       	-h --help                             -Afficher ce menu d'usage.
       
-	  
-	    Examples :
+	 
+	 
+Examples :
 		
 				python lantester.py -s -p tcp -P 80 192.168.1.100
                     	    	python lantester.py -d tcp -f SYN 192.168.1.10
